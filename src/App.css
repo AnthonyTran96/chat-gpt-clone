@@ -1,4 +1,36 @@
 .App {
-  text-align: center;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
 }
 
+.sidebar{
+  flex-basis: 260px;
+  background-color: #202123;
+  padding: 10px 25px 15px 15px;
+}
+
+.sidebar-addChat{
+  width: 100%;
+  text-align: left;
+  padding: 13px 10px;
+  border-radius: 8px;
+  background-color: #202123;
+  color: white;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+
+.sidebar-addChat:hover{
+  background-color: #ffffff33;
+}
+
+.font-awsome-faPlus{
+  margin-right: 10px;
+}
+
+.mainSection{
+  background-color: #343641;
+  flex: 1;
+  color: white;
+}

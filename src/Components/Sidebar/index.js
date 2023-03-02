@@ -1,8 +1,10 @@
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faPlus} from '@fortawesome/free-solid-svg-icons'
 function Sidebar(){
     return (
-        <div className="sidebar">
-            <h1>ChatGPT</h1>
-        </div>
+       <aside className="sidebar">
+        <button className="sidebar-addChat"><FontAwesomeIcon className='font-awsome-faPlus' icon={faPlus}/> New chat</button>
+       </aside>
     )
 }
 export default Sidebar
