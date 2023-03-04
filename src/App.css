@@ -93,7 +93,7 @@
 
 .input{
   width: 100%;
-  padding: 12px;
+  padding: 15px;
   max-width: 766px;
   position: relative;
 }
@@ -145,8 +145,7 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding: 20px 15px 30px 15px;
 }
 
 .dialogue-ai{
@@ -167,9 +166,40 @@
   align-items: flex-start;
   gap: 12px;
   display: flex;
+  font-size: 14px;
 }
 
 .account{
-  width: 6rem
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.comment{
+  flex:1 1 auto;
+  width: 100%;
+}
+
+.introduce img{
+  width: 75px; 
+}
+
+
+.introduce{
+  padding-left: 1rem;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 15px;
+}
+
+.introduce h3{
+  line-height: 2rem;
+  font-family: 'Lobster', cursive;
+  font-weight: 300;
+  color: gainsboro;
 }

@@ -1,7 +1,7 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faUnlockKeyhole,faPlus} from '@fortawesome/free-solid-svg-icons';
 import { faSun,faMessage, faTrashCan } from '@fortawesome/free-regular-svg-icons';
-
+import slytherinImg from '../../Assets/SlytherinLogo.png';
 function Sidebar(){
     return (
        <aside className="sidebar">
@@ -17,6 +17,10 @@ function Sidebar(){
             <div className="setting-item"><FontAwesomeIcon icon={faTrashCan}  className='font-awsome'/>Clear Conversation</div>
             <div className="setting-item"><FontAwesomeIcon icon={faSun}  className='font-awsome'/>Light Mode</div>
             <div className="setting-item"><FontAwesomeIcon icon={faUnlockKeyhole}  className='font-awsome'/>Change API KEY</div>
+            <div className="introduce">
+                <img src={slytherinImg} alt="slytherinImg" />
+                <h3>Design by Anthony</h3>
+            </div>
         </div>
        </aside>
     )
